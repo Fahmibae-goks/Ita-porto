@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="assets/images/profile.jpg" alt="Profile" class="avatar">
+    <span class="brand-name">ITA NAFILAH</span>
+  </div>
+
+  <nav class="nav-menu" id="navMenu">
+    <a href="#work">Work</a>
+    <a href="#projects">Cv</a>
+    <a href="#articles">Articles</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hamburger" id="hamburger">
+    ☰
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Hi, I’m <span>ITA NAFILAH</span></h1>
+  <p>
+    Halo, perkenalkan nama saya Ita Nafilah, 
+    berasal dari Purbalingga, Jawa Tengah. 
+    Saya memiliki pengalaman kerja di berbagai bidang, 
+    mulai dari akuntansi, administrasi, 
+    hingga pelayanan nasabah. 
+    Saat ini saya juga masih menempuh pendidikan di Universitas 
+    Terbuka Purwokerto.
+  </p>
+</section>
+
+<section id="work" class="section what-i-do">
+  <h2 class="section-title">What I Do</h2>
+
+  <div class="work-grid">
+    <div class="work-card">
+      <h3>Administrasi & Akuntansi</h3>
+      <p>
+        Berpengalaman dalam pengelolaan administrasi dan pencatatan keuangan
+        dengan pendekatan yang rapi, teliti, dan terstruktur.
+      </p>
+    </div>
+
+    <div class="work-card">
+      <h3>Pelayanan & Hubungan Nasabah</h3>
+      <p>
+        Terbiasa berinteraksi langsung dengan nasabah, memberikan pelayanan
+        yang komunikatif, solutif, dan membangun kepercayaan.
+      </p>
+    </div>
+
+    <div class="work-card">
+      <h3>Community & Professional Support</h3>
+      <p>
+        Berpengalaman dalam pendampingan komunitas, kegiatan lapangan,
+        serta dukungan operasional secara profesional.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Pengalaman & Cv</h2>
+  <div class="projects-grid">
+    <img src="assets/images/project-1.jpg" alt="Project 1">
+    <img src="assets/images/project-2.jpg" alt="Project 2">
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <h2 class="section-title">Let’s Work Together</h2>
+  <p class="contact-desc">
+    Jika Anda tertarik untuk bekerja sama atau merekrut saya,
+    silakan hubungi melalui WhatsApp atau email di bawah ini.
+  </p>
+
+  <div class="contact-wrapper">
+
+    <!-- INFO KONTAK -->
+    <div class="contact-info">
+      <p><strong>WhatsApp:</strong><br>+62 812-2673-2523</p>
+      <p><strong>Email:</strong><br>itanafilah@email.com</p>
+      <p><strong>Domisili:</strong><br>Purbalingga, Jawa Tengah</p>
+
+      <a
+        href="https://wa.me/+6281226732523?text=Halo%20Ita,%20saya%20tertarik%20untuk%20mendiskusikan%20peluang%20kerja%20dengan%20Anda."
+        target="_blank"
+        class="wa-button"
+      >
+        Hubungi via WhatsApp
+      </a>
+    </div>
+
+    <!-- FORM KONTAK -->
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Nama Anda" required>
+      <input type="text" id="company" placeholder="Perusahaan / Instansi">
+      <textarea id="message" placeholder="Pesan singkat"></textarea>
+      <button type="submit">Kirim ke WhatsApp</button>
+    </form>
+
+  </div>
+</section>
+
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
